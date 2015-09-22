@@ -1,0 +1,24 @@
+{
+  "name": "verslierteraar.js",
+  "version": "0.1.0",
+  "description": "Verslierteraar van ingredienten",
+  "homepage": "https://github.com/iainvdw/verslierteraar.js",
+  "main": "verslierteraar.js",
+  "scripts": {
+    "test": "istanbul cover _mocha tests/test.js; istanbul report html"
+  },
+  "author": {
+    "name": "Iain van der Wiel",
+    "email": "iain.vanderwiel@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iainvdw/verslierteraar.js.git"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-spies": "^0.7.0",
+    "mocha": "^2.3.0"
+  },
+  "license": "MIT"
+}
